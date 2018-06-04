@@ -1,0 +1,24 @@
+Nessus -> Powershell -> CSV Reporting
+
+-- run patches needed report 
+-- download .CSV
+--run 
+    Import-CSV [name] | Where {Search Criteria Goes Here} | Select [info you want like plugin name & DNS name] | Export-CSV [path] -NoTypeInformation
+-- Sort!
+
+a plan for this thing i did:
+- Get a monthly report on the 15th
+- Pull the crticial and high out of the report
+- upload that new report to Google Drive share
+- send notifcation email
+- add in info about remediations
+- automate that entire process!!
+
+    COVER PAGE -> # of machines
+                -> info about patches
+                -> due by ?
+
+Create a script to do this!
+take a file with a standard name
+copy and rename input file 
+add date to both

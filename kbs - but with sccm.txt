@@ -1,0 +1,12 @@
+FIGURING OUT THE SCCM WINDOWS KB UPDATE MAGIC PROCESS
+to view what Windows KBs are deployed
+> Go to software update groups
+> Each thing in this Software Update Group list is a "Group" of KBs. If you double click on the Group, it'll tell you what's in the Group.
+
+switch to the monitoring tab
+> search for ADR - or for the software update group name
+> if device is "compliant" that means it has all the updates in the list
+> if it's in progress it will have what KBs will be installed on reboot or whenever the trickle down effect takes place
+> if it's error there will be more info 
+> unknown just needs to work itself out or deleted computers are trying to be reached
+

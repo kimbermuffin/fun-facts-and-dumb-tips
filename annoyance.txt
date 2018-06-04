@@ -1,0 +1,4 @@
+how to instant message a user via toast
+in directory C:\Windows\CCM
+run
+SCToastNotification.exe "Notification title" "notification text"

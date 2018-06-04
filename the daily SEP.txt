@@ -1,0 +1,14 @@
+daily SEP (Symantec Endpoint Protection) tasks
+----------------------------------------------
+
+check the report
+- if it bad do dis
+
+LOG INTO THE SERVER INTERFACE
+check the windows definitions
+- make sure they are on current day (this usually becomes final around 9am)
+	- if no worky, call support
+-
+check the clients
+- move things into their appropriate categories
+

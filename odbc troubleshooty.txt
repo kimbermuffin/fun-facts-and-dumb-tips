@@ -1,0 +1,32 @@
+ODBC Troubleshooting
+
+ARE THEY A MEMBER OF THE GROUP?
+Get-ADPrincipalGroupMembership -identity <user> | select samaccountname
+This will give you a list of the groups a member is in. Verify that ODBC_Users is one of those groups.
+-or-
+open ADUC and go to PCC-Domain -> Groups -> Security -> District Office
+Right click on ODBC_Users and click on the Members tab. Verify the user is in the list.
+
+- if they are not in the group, IT-USS-Systems@pima.edu can add them to the group.
+- if they are in the group, continue.
+
+--QUICK TESTS THAT TECH SERVICES WANTS YOU TO TRY BEFORE ESCALATING--
+- Disable SEP
+- Uninstall SEP
+- Verify Windows Firewall is off
+- Remove/re-add the connection because it might be configured wrong!
+
+-- So you need to escalate, what do we need to know? --
+WHAT DRIVER ARE THEY USING?
+ODBC utilizes special drivers to connect to our Oracle database. These drivers have names such as:
+- Oracle ODBC 11g R2
+- Oracle ODBC 10g 
+
+WHAT APP ARE THEY TRYING TO ACCESS?
+- is the user is trying to go through Access or a different program??
+- what database are they trying to get to?
+- what is the application name?
+- what is the job role they're trying to accomplish and unable to?
+- have they EVER been able to accomplish this? 
+
+

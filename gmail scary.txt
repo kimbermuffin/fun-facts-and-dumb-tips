@@ -1,0 +1,5 @@
+For messages that indicate a blocked sign-in attempt, as long as the from address is  Google <no-reply@accounts.google.com>, they are legitimate. It means that an app that you are using with your Google account is causing the issue.
+To resolve this, you can go to the site https://myaccount.google.com/permissions
+and review the apps that have permission to your account. Click on the app to remove access for any that you no longer use or do not recognize.
+
+This should resolve the issue, but if you need any assistance or continue receiving the notification, please let me know.

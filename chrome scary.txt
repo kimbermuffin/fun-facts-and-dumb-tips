@@ -1,0 +1,5 @@
+ Can you please confirm that there are no malicious or unknown extensions installed on Nic's Chrome browser? 
+chrome://extensions will show them. If you find any, please remove and then do a MalwareBytes scan.
+Additionally, clear the browser data by going to chrome://settings/clearBrowserData , 
+set to "all time" and 
+clear the browsing history, cache, and cookies to make sure the site is not stored in any way.
